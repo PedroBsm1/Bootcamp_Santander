@@ -1,17 +1,7 @@
-def calcular_imposto(salario):
-    aliquota = 0
-    if(salario >= 0 and salario <= 1100.0):
-        aliquota = 0.05
-    elif(salario >= 1100.01 and salario <= 2500.0):
-        aliquota = 0.10
-    else:
-        aliquota = 0.15
-        
-    return aliquota * salario
+saldo_atual = int(input(100))
+valor_deposito = float(input("Digite o valor do deposito: "))
+valor_retirada = float(input("Digite o valor da retirada"))
 
-valor_salario = float(input("Qual o seu salario?: "))
-
-valor_imposto = calcular_imposto(valor_salario)
-
-saida = valor_salario - valor_imposto
-print(f"{saida}")
+#TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
+saldo_novo = (saldo_atual + valor_deposito) - valor_retirada
+print(saldo_novo)

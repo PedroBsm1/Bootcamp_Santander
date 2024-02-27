@@ -1,0 +1,1 @@
+Bootcamp realizado pela DIO em colaboração com a Santander. Focado em ciências de Dados com Python, tive a oportunidade de trabalhar em alguns projetos voltados para programação e python, Mysql e integração com o Microsoft Power BI.
